@@ -1,0 +1,211 @@
+@font-face {
+    font-family: font1;
+    src: url(./font/D-DIN-Bold.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(./font/D-DIN.woff2);
+}
+body {
+    margin: 0;
+    
+}
+
+.upper-div{
+    width: 100%;
+    height: 751px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.middle-div {
+    width: 100%;
+    height: 751px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.middle-div {
+    margin-top: 0;
+}
+.header{
+    width: 100%;
+    height: 50px;
+}                   
+.logo{
+    width: 250px;
+    height: 70px;
+}
+.header{
+    position: fixed;
+    background: transparent;
+    width: 100%;
+    height: 150px;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: font1;
+    padding: 0px;
+    margin: 12px;
+    font-size: 12px;
+}
+.img{
+   margin-left: 150px;
+   margin-top: 30px;
+}
+.h-right{
+    float: left;
+}
+.h-mid{
+    float: left;
+    height: 139px;
+    margin-top: 40px;
+    margin-left:  26px;
+}
+.h-left {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    padding-left: 105px;
+    width: 145px;
+    float: right;
+    padding-top: 39px;
+}
+.a1{
+    font-size: 15px;
+}
+.lower-div{
+    width: 100%;
+    height: 751px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    margin-bottom: 0;
+}
+.div4{
+    background-color: black;
+    width: 100%;
+    height: 82px;
+    display: flex;
+    font-size:12px ;
+    margin: 0;
+    color: white;
+    justify-content:center ;
+    align-items: center;
+    gap: 50px;
+    font-family: font1;
+
+}
+
+.down {
+    position: absolute;
+    top: 433px;
+    left: 142px;
+    background: transparent;
+    width: 500px;
+    height: 10px;
+    color: white;
+}
+.down h1{
+    font-family: font1;
+    font-size: 48px;
+   
+}
+.btn{
+    padding: 18px 47px;
+   
+   
+    border-color: white;
+    text-align: center;
+}
+.down h3{
+    font-family: font2;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: -30px;
+}
+
+.hamberg span{
+    display: block;
+    width: 16px;
+    height: 2px;
+    background-color: white;
+    margin: 2px 0;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+    font-family: font1;
+    font-size: 14px;
+    margin-top: 25px;
+    padding-top: 36px;
+    padding-left: 84px;
+    background: transparent;
+    color: white;
+    border-color: white;
+    margin-left: 3px;
+    
+}
+.down button:hover{
+    color: black;
+   background-color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.img:hover{
+    cursor: pointer;
+}
+
+.m-down p{
+   
+    font-family: font2;
+    font-size: 20px;
+    padding-top: 20px
+}
+.m-down {
+    position: absolute;
+    margin-top: 399px;
+    margin-left: 145px;
+    color: white;
+}
+.m-down h1{
+    font-size: 48px;
+    font-family: font1;
+    padding-top: 9px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+
+.l-down {
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 139px;
+    color: white;
+}
+.btn2 {
+    padding: 18px 47px;
+
+    
+}
+.btn3 {
+    padding: 18px 42px;
+}
+.l-down h1{
+    font-size: 48px;
+    font-family: font1;
+    margin-top: 46px;
+    margin-bottom: 0;
+}
+.div4 p{
+    font-family: font2;
+}
+
